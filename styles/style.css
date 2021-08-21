@@ -1,0 +1,62 @@
+/*****************************************************************************
+**
+**    Title:      style.css
+**    Project:    Tribute Page
+**    Author:     Bethany Cohen
+**    Contact:    <deskofbethany@gmail.com>
+**    GitHub:     https://github.com/bethco
+
+** 
+*****************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+
+body {
+    background: #F2CC8F;
+    color: #3D405B;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h3 {
+    color: #E07A5F;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 2em;
+}
+h1 {
+    font-size: 3em;
+}
+
+#img-caption {
+    color: #5e8b77;
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+ol {
+    list-style: none; 
+    margin: 0 auto;
+    width: 293px;
+}
+
+p{
+    text-align:left;
+    //border: solid 1px blue;
+    padding: 1em 0em;
+    margin: 0 auto;
+    width: 600px;
+}
+
+#image {
+    height: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+a {
+    margin-top: 4em;
+    text-align: center;
+    display: block;
+}
