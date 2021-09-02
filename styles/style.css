@@ -14,6 +14,8 @@ body {
     background: #F2CC8F;
     color: #3D405B;
     font-family: 'Raleway', sans-serif;
+    background-image: radial-gradient(circle,
+     #f8edeb, #fae1dd, #fcd5ce, #fec5bb);
 }
 
 h1, h3 {
@@ -41,7 +43,6 @@ ol {
 
 p{
     text-align:left;
-    //border: solid 1px blue;
     padding: 1em 0em;
     margin: 0 auto;
     width: 600px;
